@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="6" height="12" viewBox="0 0 6 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3cb790;
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <path id="bread-arrow.svg" class="cls-1" d="M1651,468l-3.99,3.936-2.01,2.07,6,6V468Z" transform="translate(-1645 -468)"/>
+</svg>

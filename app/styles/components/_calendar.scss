@@ -1,0 +1,19 @@
+.calendar-wrapper{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 100%    ;
+    background: #0e4540;
+    background: -moz-linear-gradient(right,  #0e4540 100%, #23b565 100%);
+    background: -webkit-linear-gradient(right,  #0e4540 100%,#23b565 100%);
+    background: linear-gradient(to left,  #0e4540 100%,#23b565 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e4540', endColorstr='#23b565',GradientType=1 );
+}
+#calendar{
+    margin: 50px auto;
+    max-width: 500px;
+    height: 500px;
+    .fc-basic-view .fc-body .fc-row{
+        min-height: 1em;
+    }
+}

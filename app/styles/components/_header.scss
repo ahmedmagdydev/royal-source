@@ -1,0 +1,57 @@
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9;
+    .navbar{
+        padding: 0.2rem 1rem;
+        .dropdown{
+            & > a{
+                margin-right: 42px;
+                color: #5d5d5d;
+                &:hover{
+                    text-decoration: none;
+                }
+                &#profileMenu img{
+                    margin-right: 10px;
+                }
+                .notification-label{
+                    position: absolute;
+                    background: #f95050;
+                    padding: 10px 0;
+                    border-radius: 50%;
+                    width: 22px;
+                    height: 22px;
+                    line-height: 0;
+                    text-align: center;
+                    color: #fff;
+                    left: -9px;
+                    top: -5px;
+                    border: 1px solid #fff;
+                    font-size: 0.8rem;
+                }
+            }
+            .dropdown-toggle::after{
+                color: #bbb;
+            }
+        }
+    }
+    .search-input-group{
+        .input-group-addon{
+            background: white !important;
+            border-radius: 0 30px 30px 0;
+        }
+        .form-control{
+            border-right:0;
+            box-shadow:0 0 0;
+            border-color:#ccc;
+            width: 300px;
+        }
+        button{
+            border:0;
+            background:transparent;
+        }
+    }
+}

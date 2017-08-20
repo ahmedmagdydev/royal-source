@@ -1,0 +1,20 @@
+
+table.dataTable tbody tr{
+        background: #fff;
+    border-top: 14px solid #f9f9fb;
+    border-bottom: 14px solid #f9f9fb;
+}
+
+/*table.dataTable tbody tr {
+    background: #fff;
+    box-shadow: 0 0 6px 0px #9c9c9c, 0 0 0px 12px #f9f9fb;
+    border-radius: 7px;
+    overflow: hidden;
+}*/
+
+
+table.dataTable th{
+    border-top:0;
+    padding-top: 0;
+    padding-bottom: 0;
+}

@@ -1,0 +1,40 @@
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import 'components/utils';
+@import 'components/header';
+@import 'components/dashboard';
+@import 'components/sidebar';
+@import 'components/buttons';
+@import 'components/calendar';
+@import 'components/wizard';
+@import 'components/breadcrumb';
+@import 'components/table';
+@import 'components/guest-details';
+
+body,html{
+  height: 100%;
+  font-family: 'Cairo', sans-serif;
+    color: #4e655f;
+}
+button, input, optgroup, select, textarea{
+  font-family: 'Cairo', sans-serif;
+}
+
+
+
+.main-content{
+  padding-top: 4.4rem;
+  min-height: 100%;
+  background: #0e4540;
+  background: -moz-linear-gradient(right,  #0e4540 100%, #23b565 100%);
+  background: -webkit-linear-gradient(right,  #0e4540 100%,#23b565 100%);
+  background: linear-gradient(to left,  #0e4540 100%,#23b565 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e4540', endColorstr='#23b565',GradientType=1 );
+  .wrapper{
+    flex:1;
+    margin-left: 70px;
+  }
+}
+

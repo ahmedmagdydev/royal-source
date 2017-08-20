@@ -1,0 +1,16 @@
+{
+  "name": "royalhtml",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "modernizr": "~2.8.1",
+    "gauge.js": "https://github.com/bernii/gauge.js.git#^1.3.5",
+    "chartist": "^0.11.0",
+    "Upload-Image-Preview-Plugin": "https://github.com/Gaohaoyang/Upload-Image-Preview-Plugin.git#^1.1.1",
+    "dropzone": "https://github.com/enyo/dropzone.git#^5.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}

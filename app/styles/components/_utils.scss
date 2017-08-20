@@ -1,0 +1,49 @@
+.rounded{
+    &--input{
+        border-radius: 30px;
+    }
+}
+
+.page-title{
+    color: #fff;
+}
+select.form-control:not([size]):not([multiple]){
+    padding: 0.05rem .75rem;
+}
+
+.upload-image{
+
+}
+
+.form-group{
+    legend{
+        color: #1b8253;
+        border-bottom: 2px solid #d4d7d6;
+        padding-bottom: 19px;
+    }
+}
+
+.switch{
+    width: 34px !important;
+    height: 14px !important;
+    small{
+            top: -3px !important;
+            width: 20px !important;
+            height: 20px !important;
+    }
+}
+
+.modal{
+        background: rgba(0, 0, 0, 0.65);
+        &-header{
+                border-radius: 10px 10px 0 0;
+        }
+}
+
+.timeline-location{
+  background-image: url(../images/location.png);
+}
+.timeline-date{
+  background-image: url(../images/calendar.png);
+
+}

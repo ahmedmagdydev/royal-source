@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.44" height="25.438" viewBox="0 0 25.44 25.438">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="step-arrow-up.svg" class="cls-1" d="M2658,602.272L2670.73,615,2658,627.728,2645.27,615Z" transform="translate(-2645.28 -602.281)"/>
+</svg>

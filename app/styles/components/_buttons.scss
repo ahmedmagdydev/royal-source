@@ -1,0 +1,50 @@
+.btn-group .btn-fab{
+    border-radius: 50%;
+    height: 63px;
+        min-width: 63px;
+    width: 63px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+    background: #f62a2a;
+    box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+    position: relative;
+        font-size: 24px;
+        padding: 12px;
+position: fixed !important;
+  right: 20px;
+      bottom: 20px;
+}
+
+#addEvent{
+    transform: scale(0);
+    transition: all .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    img{
+        zoom: .1;
+        transform: rotate(50deg);
+        transition: all .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        transition-delay: .1s;
+    }
+}
+
+.floating-menu{
+    position: fixed;
+    right: 0;
+    top:100px;
+    li{
+        list-style: none;
+        background: #dd9f4d;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin-bottom: 1px;
+        padding: 5px;
+        &:first-child{
+            border-top-left-radius: 5px;
+        }
+        &:last-child{
+            border-bottom-left-radius: 5px;
+        }
+    }
+}
+
+.tooltip-inner:before{right: 0 !important;left:auto !important;border-width: 5px 0 5px 5px !important;border-left-color: #000}

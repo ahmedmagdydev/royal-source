@@ -1,0 +1,10 @@
+.guest{
+    &-edit{
+        background: url(../images/edit.svg) no-repeat left;
+        padding-left: 30px;
+    }
+    &-active{
+        background: url(../images/guest-active.svg) no-repeat left;
+        padding-left: 30px;
+    }
+}
